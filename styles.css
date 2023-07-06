@@ -47,7 +47,7 @@ body{
     justify-content: center;
     
 }
-.profile-box{
+.card{
     background-color: #5a5959;
     width: 60%;
     height: 500px;
@@ -59,8 +59,9 @@ body{
     border-radius: 20px;
 }
 
-.profile-pic{
-    width:160px;
+.card-img{
+    height: 140px;
+    width: 100%;
     border-radius: 50%;
     background: #fff;
     padding: 1px;
@@ -68,7 +69,7 @@ body{
     
     
 }
-.profile-bottom{
+.card-footer{
     background-color: #ffffff;
     color:#333;
     padding: 60px 0;
@@ -82,6 +83,7 @@ body{
     background-color: rgb(255, 255, 255, 1);
     border: none;
     
+    
 }
 .bottom-arrow img{
     width: 25px;
@@ -94,22 +96,12 @@ body{
     transform: rotate(180deg);
 }
 
-.profile-box h3{
-    font-size: 22px;
-    margin-top: 20px;
-    font-weight: 500;
-}
-
-#more_info{
-    background-color: #fff;
-    width: 100%;
+#inf{
     display: none;
-    
 }
 
-#more_info p {
-    text-align: center;
-}
+
+
 
 .interests-box{
     background-color: #5a5959;
@@ -119,13 +111,19 @@ body{
     text-align: center;
     padding: 40px 90px;
     color: #fff;
-    /* position: relative; */
+    position: relative;
     border-radius: 20px;
 }
 .music-box{
+    /* background-color: #5a5959; */
+    width: 60%;
+    height: 500px;
+    margin-top: 20px;
+    padding: 40px 90px;
     border: none;
     border-radius: 20px;
-  
-   
-    
+}
+
+.playlist{
+    width: 100%;
 }

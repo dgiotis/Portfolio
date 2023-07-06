@@ -33,16 +33,16 @@ function showTime(){
 showTime();
 
 
-const div = document.getElementById('more_info');
+const parag = document.getElementById('inf');
 let display=0;
 
-let Infbutton = document.querySelector(".bottom-arrow");
-Infbutton.addEventListener('click',(e) => {
+let extend_btn = document.querySelector(".bottom-arrow");
+extend_btn.addEventListener('click',(e) => {
     hide_show();
 } );
 
 
-let rotated=document.getElementsByClassName('profile-pic');
+let rotated=document.getElementsByClassName('card-img');
 
 let btn = document.querySelector('.bottom-arrow');
 
@@ -52,18 +52,18 @@ btn.addEventListener('click', function() {
 
 // MORE ABOUT ME
 function hide_show(){
-    div.style.display='none';
+    
     
     if(display==0)
     {
-        div.style.display='block';
+        parag.style.display='block';
         display=1;
         
         console.log("show");
     }
     else
     {
-        div.style.display='none';
+        parag.style.display='none';
         display=0;
         console.log("hide");
     }
