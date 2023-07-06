@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron&family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet"> 
+    <title>Dimitris Giotis Profile</title>
+</head>
+<body>
+    
+        <nav class=" navbar navbar-expand-sm navbar-light bg-light">
+            <a 
+                href="#"
+                class="navbar-brand">
+                <img class="d-inline-block align-top"
+                     src="logo.svg"
+                     height="40px"
+                     width="40px"/>
+                     Dimitris Giotis
+            </a>
+            <div id="MyClockDisplay" class="clock" style="justify-content:bottom" onload="showTime()">
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active" id="Work">
+                        <a href="#" class="nav-link active">Work</a>
+                    </li>
+                    <li class="nav-item active"id="Contact">
+                        <a href="#" class="nav-link active">Contact</a>
+                    </li>
+                    <li class="nav-item active" id="Resume">
+                        <a href="#" class="nav-link active">Resume</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+        <div class="card-deck justify-content-center">
+            <div class="music-box card">
+                <iframe  class="music-box "src="https://open.spotify.com/embed/playlist/4RZ4Qv1exTh0uZC0K8ZBBY?utm_source=generator&theme=0" height="100%" width="100%" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            </div>
+            <div class="profile-box card">
+                <img src="images/profile pic.jpg" class="profile-pic">
+                <h3 style="text-align: center;">Dimitris Giotis</h3>
+                <p>Web Developer, Student at University of Thessaly.</p>
+                <div class="profile-bottom">
+                    <p>Learn More About Me.</p>
+                    <div id="more_info">
+                        <p>
+                            Ονομάζομαι Γιώτης Δημήτριος και κατάγομαι από ένα πανέμορφο χωριό της Ηπείρου
+                            , το Μέτσοβο.Είμαι 23 ετών και τα τελευταία έξι χρόνια ζώ,φοιτώ και εργάζομαι στη
+                            Λάρισα.Είμαι φοιτητής στο Τμήμα Μηχανικών Πληροφορικής του Πρώην ΤΕΙ
+                            Θεσσαλίας και η ειδικότητά μου είναι Μηχανικός Λογισμικού.Παράλληλα με τις
+                            σπουδές μου έχω εργαστεί ως Μπαρτέντερ και Σερβιτόρος , κάτι που με έμαθε να
+                            εργάζομαι σκληρά και να είμαι συνεπής στις αρμοδιότητές μου και να θέλω συνεχώς
+                            να βελτιόνομαι. Στον ελεύθερο χρόνο μου ακούω μουσική, ζωγραφίζω, μαγειρέυω
+                            (πειραματικά :Ρ) και μου αρέσει να ταξιδεύω εσωτερικό και εξωτερικό με σκοπό να
+                            γνωρίζω κουλτούρες, ιδεολογίες και καινούριους ανθρώπους
+                        </p>
+
+                    </div>
+                    <button  type="button" class="bottom-arrow ">
+                        <img src="images/down-arrow.png" >
+                    </button>
+                    
+                </div>
+            </div>
+            <div class="interests-box card justify-content-center">
+                <div>
+                    INTERESTS
+                </div>
+            </div>
+        </div>
+        
+    
+    <script src="script.js"></script>
+</body>
+</html>
