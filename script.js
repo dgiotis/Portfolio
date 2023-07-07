@@ -50,6 +50,21 @@ btn.addEventListener('click', function() {
   btn.classList.toggle('rotate');
 });
 
+// //TOGGLER MENU
+// function classToggle() {
+//     const navs = document.querySelectorAll('.nav-item')
+    
+//     navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+//   }
+  
+//   document.querySelector('.Navbar__Link-toggle')
+//     .addEventListener('click', classToggle);
+
+
+
+
+
+
 // MORE ABOUT ME
 function hide_show(){
     
