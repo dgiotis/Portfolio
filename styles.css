@@ -69,7 +69,6 @@ body{
 .card{
     background-color: #5a5959;
     width: 60%;
-    height: 500px;
     margin-top: 20px;
     padding: 40px 90px;
     text-align: center;
@@ -104,6 +103,7 @@ body{
     padding: 60px;
     margin: 60px;
     border-radius: 20px;
+ 
     
 }
 
@@ -132,6 +132,7 @@ button:focus{
 #inf{
     background-color:#5a5959;
     border-radius: 20px;
+    color:#ffffff;
 }
 
 
@@ -140,7 +141,7 @@ button:focus{
 .interests-box{
     background-color: #5a5959;
     width: 60%;
-    height: 500px;
+   
     margin-top: 20px;
     text-align: center;
     padding: 0px;
@@ -162,4 +163,20 @@ button:focus{
     border: none;
     border-radius: 20px;
    
+}
+
+.Grizzly{
+    color: rgb(20, 92, 20);
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+}
+.Grizzly:hover{
+    color:#e64d11;
+}
+
+.spotify-icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
 }
