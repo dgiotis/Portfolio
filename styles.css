@@ -48,7 +48,7 @@ body{
     padding: 20px;
 }
 
-
+/* CARDS LAYOUT  */
 .card-deck{
     width: 100%;
     height: 90vh;
@@ -61,11 +61,49 @@ body{
     
 }
 
+
+/* MUSIC BOX */
+
+.nopad{
+    padding:0px !important;
+
+}
+
+.music-box{
+    width: 100%;
+    height: 500px;
+    
+    padding: 0px 50px;
+    border: none;
+    border-radius: 20px;
+   
+}
+
+.Grizzly{
+    color: rgb(17, 173, 17);
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+}
+.Grizzly:hover{
+    color:#e64d11;
+}
+
+.spotify-icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+
 @media screen and (max-width:768px){
     .card-deck{
         height: 100% !important;
     }
 }
+
+/* PROFILE BOX */
+
 .card{
     background-color: #5a5959;
     width: 60%;
@@ -76,10 +114,7 @@ body{
     border-radius: 20px;
 }
 
-.nopad{
-    padding:0px !important;
 
-}
 
 .card-img{
     height: 280px;
@@ -94,7 +129,27 @@ body{
 
 }
 
+/* INTERESTS BOX */
 
+.interests-box{
+    background-color: #5a5959;
+    width: 100%;
+    min-height:200px ;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0px;
+    color: #fff;
+    position: relative;
+    border-radius: 20px;
+}
+
+.interests-box:hover{
+    background-color: #e64d11;
+}
+
+
+/* LEARN MORE */
+    
 .card-footer{
     justify-content: center;
     text-align: center;
@@ -107,6 +162,13 @@ body{
     
 }
 
+#inf{
+    background-color:#5a5959;
+    border-radius: 20px;
+    color:#ffffff;
+}
+
+/* learn more button */
 .bottom-arrow{
     background-color:transparent;
     border: none;
@@ -129,54 +191,4 @@ button:focus{
     transform: rotate(180deg);
 }
 
-#inf{
-    background-color:#5a5959;
-    border-radius: 20px;
-    color:#ffffff;
-}
 
-
-
-
-.interests-box{
-    background-color: #5a5959;
-    width: 60%;
-   
-    margin-top: 20px;
-    text-align: center;
-    padding: 0px;
-    color: #fff;
-    position: relative;
-    border-radius: 20px;
-}
-
-.interests-box:hover{
-    background-color: #e64d11;
-}
-
-
-.music-box{
-    width: 100%;
-    height: 500px;
-    
-    padding: 0px 50px;
-    border: none;
-    border-radius: 20px;
-   
-}
-
-.Grizzly{
-    color: rgb(20, 92, 20);
-    text-decoration: none;
-    font-size: large;
-    text-align: center;
-}
-.Grizzly:hover{
-    color:#e64d11;
-}
-
-.spotify-icon{
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-}
