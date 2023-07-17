@@ -50,26 +50,19 @@ btn.addEventListener('click', function() {
   btn.classList.toggle('rotate');
 });
 
-// //TOGGLER MENU
-// function classToggle() {
-//     const navs = document.querySelectorAll('.nav-item')
-    
-//     navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
-//   }
-  
-//   document.querySelector('.Navbar__Link-toggle')
-//     .addEventListener('click', classToggle);
 
+// Navbar toggler 
 
-
-
-
+function toggleNavbar() {
+    const navbar = document.getElementById("navbarNav");
+    navbar.classList.toggle("show");
+  }
 
 // MORE ABOUT ME
 function hide_show(){
     
     
-    if(display==0)
+    if(display==1)
     {
         parag.style.display='block';
         display=1;
