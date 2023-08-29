@@ -197,3 +197,38 @@ button:focus{
 }
 
 
+/* CONTACT FORM */
+.acc{
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+
+}
+.contact-form{
+    font-family: Orbitron ;
+    max-height: 500px;
+    max-width: 50%;
+    background-color: #5a5959;
+    color: #fff;
+    display: block;
+    border: 1px solid rgb(41, 5, 5);
+    border-radius: 20px;
+    margin: 0px auto;
+    text-align: left;
+    
+}
+
+.form-control{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+#sub-btn{
+    background-color: #e64d11;
+    border-radius: 5px;
+    border: none;
+    float: right;
+    height: 35px;
+    width: 80px;
+}
